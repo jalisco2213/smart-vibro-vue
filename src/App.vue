@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import LanguageSelector from './components/LanguageSelector.vue';
+import LanguageSelector from './Layouts/LanguageSelector.vue';
 
 const langKey = ref('eng');
 const getLangKey = ref(() => (key) => key);
