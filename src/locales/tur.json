@@ -1,0 +1,51 @@
+{
+	"tab1Btn": "Analizör",
+	"tab2Btn": "Vibrometre",
+	
+	"openReportWindowBtn": "Rapor Oluştur",
+	"serialNumberLabel": "Seri Numarası",
+	"commentLabel": "Yorum",
+	"employeeLabel": "Uygulayan",
+	"calculateAvgLabel":"Seçilen ölçümlerin ortalamasını hesapla",
+	"submitReportBtn": "Oluştur",
+	"cancelReportBtn": "İptal",
+	"clearReportBtn": "Temizle",
+	
+	"fileName": "Dosya Adı",
+	"deviceList":"Disk Seç",
+	"readDataBtn":"Verileri Oku",
+	"accelPeakTitleLabel":"Titreşim İvmesi (A), m/s² ",
+	"velocityRMSTitleLabel":"Titreşim Hızı (V), mm/s ",
+	"displacementSinePeakTitleLabel":"Titreşim Yer Değiştirme (S), µm ",
+	"peakFactorTitleLabel":"Tepe Faktörü ",
+	
+	"topGraphTitle":"Spektrum",
+	"topGraphYName":"Genlik",
+	"topGraphXName":"Frekans, Hz",
+	
+	"bottomGraphTitle":"Sinyal",
+	"bottomGraphYName":"İvme, m/s²",
+	"bottomGraphXName":"Zaman",
+	
+	"recordsTableDateCol":"Tarih",
+	"recordsTableTimeCol":"Saat",
+	"recordsTableVelCol":"Titreşim Hızı (V), mm/s ",
+	"recordsTableAccelCol":"Titreşim İvmesi (A), m/s² ",
+	"recordsTableDisplCol":"Titreşim Yer Değiştirme (S), µm ",
+	"recordsTablePeakCol":"Tepe Faktörü ",
+	
+	"reportTitle": "Taşınabilir Vibrometre",
+    "reportProtocol": "Ölçüm Protokolü",
+    "reportSerialNumber": "Cihaz Seri Numarası",
+    "reportDate": "Tarih ve Saat",
+    "reportResult": "Ölçüm Sonuçları",
+    "reportDateTime": "Tarih ve Saat",
+	"reportVel":"V, mm/s",
+	"reportAccel":"A, m/s²",
+	"reportDispl":"S, µm",
+	"reportPeak":"Tepe Faktörü",
+	"reportAvg":"Ortalama",
+	
+    "alertTab1": "Ölçüm seçilmedi",	
+	"alertTab2": "Ölçüm seçilmedi"
+}

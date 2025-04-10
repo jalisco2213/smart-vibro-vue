@@ -1,0 +1,51 @@
+{
+	"tab1Btn": "Анализатор",
+	"tab2Btn": "Виброметр",
+	
+	"openReportWindowBtn": "Создать отчет",
+	"serialNumberLabel": "Серийный номер",
+	"commentLabel": "Комментарий",
+	"employeeLabel": "Исполнил",
+	"calculateAvgLabel":"Рассчитать среднее значение выбранных измерений",
+	"submitReportBtn": "Сгенерировать",
+	"cancelReportBtn": "Отменить",
+	"clearReportBtn": "Очистить",
+	
+	"fileName": "Имя файла",
+	"deviceList":"Выбрать диск",
+	"readDataBtn":"Считать данные",
+	"accelPeakTitleLabel":"Виброускорение (A), м/с² ",
+	"velocityRMSTitleLabel":"Виброскорость (V), мм/с ",
+	"displacementSinePeakTitleLabel":"Виброперемещение (S), мкм ",
+	"peakFactorTitleLabel":"Пик-фактор ",
+	
+	"topGraphTitle":"Спектр",
+	"topGraphYName":"Амплитуда",
+	"topGraphXName":"Частота, Гц",
+	
+	"bottomGraphTitle":"Сигнал",
+	"bottomGraphYName":"Ускорение, м/с²",
+	"bottomGraphXName":"Время",
+	
+	"recordsTableDateCol":"Дата",
+	"recordsTableTimeCol":"Время",
+	"recordsTableVelCol":"Виброскорость (V), мм/с ",
+	"recordsTableAccelCol":"Виброускорение (A), м/с² ",
+	"recordsTableDisplCol":"Виброперемещение (S), мкм ",
+	"recordsTablePeakCol":"Пик-фактор ",
+	
+	"reportTitle": "Портативный виброметр",
+    "reportProtocol": "Протокол проведения измерений",
+    "reportSerialNumber": "Серийный номер устройства",
+    "reportDate": "Дата и время",
+    "reportResult": "Результаты измерений",
+    "reportDateTime": "Дата и Время",
+	"reportVel":"V, мм/с",
+	"reportAccel":"A, м/с²",
+	"reportDispl":"S, мкм",
+	"reportPeak":"Пик-фактор",
+	"reportAvg":"Среднее",
+    	
+	"alertTab1": "Измерение не выбрано",
+	"alertTab2": "Измерение не выбрано"
+}

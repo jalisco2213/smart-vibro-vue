@@ -1,0 +1,51 @@
+{
+	"tab1Btn": "Analyzer",
+	"tab2Btn": "Vibrometer",
+	
+	"openReportWindowBtn": "Generate Report",
+	"serialNumberLabel": "Serial Number",
+	"commentLabel": "Comment",
+	"employeeLabel": "Executed by",
+	"calculateAvgLabel":"Calculate the average of selected measurements",
+	"submitReportBtn": "Generate",
+	"cancelReportBtn": "Cancel",
+	"clearReportBtn": "Clear",
+	
+	"fileName": "File Name",
+	"deviceList":"Select Disk",
+	"readDataBtn":"Read Data",
+	"accelPeakTitleLabel":"Vibration Acceleration (A), m/s² ",
+	"velocityRMSTitleLabel":"Vibration Velocity (V), mm/s ",
+	"displacementSinePeakTitleLabel":"Vibration Displacement (S), µm ",
+	"peakFactorTitleLabel":"Peak Factor ",
+	
+	"topGraphTitle":"Spectrum",
+	"topGraphYName":"Amplitude",
+	"topGraphXName":"Frequency, Hz",
+	
+	"bottomGraphTitle":"Signal",
+	"bottomGraphYName":"Acceleration, m/s²",
+	"bottomGraphXName":"Time",
+	
+	"recordsTableDateCol":"Date",
+	"recordsTableTimeCol":"Time",
+	"recordsTableVelCol":"Vibration Velocity (V), mm/s ",
+	"recordsTableAccelCol":"Vibration Acceleration (A), m/s² ",
+	"recordsTableDisplCol":"Vibration Displacement (S), µm ",
+	"recordsTablePeakCol":"Peak Factor ",
+	
+	"reportTitle": "Portable Vibrometer",
+    "reportProtocol": "Measurement Protocol",
+    "reportSerialNumber": "Device Serial Number",
+    "reportDate": "Date and Time",
+    "reportResult": "Measurement Results",
+    "reportDateTime": "Date and Time",
+	"reportVel":"V, mm/s",
+	"reportAccel":"A, m/s²",
+	"reportDispl":"S, µm",
+	"reportPeak":"Peak Factor",
+	"reportAvg":"Average",
+    
+	"alertTab1": "No measurement selected",	
+	"alertTab2": "No measurement selected"
+}

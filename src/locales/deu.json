@@ -1,0 +1,51 @@
+{
+	"tab1Btn": "Analysator",
+	"tab2Btn": "Vibrometer",
+	
+	"openReportWindowBtn": "Bericht erstellen",
+	"commentLabel": "Kommentar",
+	"serialNumberLabel": "Seriennummer",
+	"employeeLabel": "Ausgeführt von",
+	"calculateAvgLabel":"Durchschnitt der ausgewählten Messungen berechnen",
+	"submitReportBtn": "Erstellen",
+	"cancelReportBtn": "Abbrechen",
+	"clearReportBtn": "Löschen",
+	
+	"fileName": "Dateiname",
+	"deviceList":"Laufwerk wählen",
+	"readDataBtn":"Daten lesen",
+	"accelPeakTitleLabel":"Schwingungsbeschleunigung (A), m/s² ",
+	"velocityRMSTitleLabel":"Schwingungsgeschwindigkeit (V), mm/s ",
+	"displacementSinePeakTitleLabel":"Schwingungsverlagerung (S), µm ",
+	"peakFactorTitleLabel":"Spitzenfaktor ",
+	
+	"topGraphTitle":"Spektrum",
+	"topGraphYName":"Amplitude",
+	"topGraphXName":"Frequenz, Hz",
+	
+	"bottomGraphTitle":"Signal",
+	"bottomGraphYName":"Beschleunigung, m/s²",
+	"bottomGraphXName":"Zeit",
+	
+	"recordsTableDateCol":"Datum",
+	"recordsTableTimeCol":"Zeit",
+	"recordsTableVelCol":"Schwingungsgeschwindigkeit (V), mm/s ",
+	"recordsTableAccelCol":"Schwingungsbeschleunigung (A), m/s² ",
+	"recordsTableDisplCol":"Schwingungsverlagerung (S), µm ",
+	"recordsTablePeakCol":"Spitzenfaktor ",
+	
+	"reportTitle": "Tragbares Vibrometer",
+    "reportProtocol": "Messprotokoll",
+    "reportSerialNumber": "Seriennummer des Geräts",
+    "reportDate": "Datum und Uhrzeit",
+    "reportResult": "Messergebnisse",
+    "reportDateTime": "Datum und Uhrzeit",
+	"reportVel":"V, mm/s",
+	"reportAccel":"A, m/s²",
+	"reportDispl":"S, µm",
+	"reportPeak":"Spitzenfaktor",
+	"reportAvg":"Durchschnitt",
+	
+   	"alertTab1": "Keine Messung ausgewählt",	
+	"alertTab2": "Keine Messung ausgewählt"
+}

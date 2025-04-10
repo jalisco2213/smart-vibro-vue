@@ -1,0 +1,102 @@
+{
+  "name": "adelix-tech-portal",
+  "version": "1.5.9",
+  "author": "jalisco2213",
+  "main": "dist/electron/main/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "vite:dev": "vite",
+    "vite:build": "vue-tsc --noEmit && vite build",
+    "vite:preview": "vite preview",
+    "ts": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint -c .eslintrc --ext .ts ./src",
+    "app:dev": "tsc && concurrently vite \" electron .\" \"tsc -w\"",
+    "app:build": "npm run vite:build && tsc && electron-builder",
+    "app:preview": "npm run vite:build && tsc && electron ."
+  },
+  "repository": "https://github.com/jalisco2213/adelix-tech-portal",
+  "build": {
+    "appId": "com.jalisco2213.adelixtechportal",
+    "asar": true,
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "jalisco2213",
+        "repo": "adelix-po",
+        "releaseType": "release"
+      }
+    ],
+    "directories": {
+      "buildResources": "assets",
+      "output": "release/${version}"
+    },
+    "files": [
+      "dist"
+    ],
+    "mac": {
+      "artifactName": "${productName}_${version}.${ext}",
+      "target": [
+        "dmg"
+      ],
+      "icon": "public/logotypeadelix.ico"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "${productName}_${version}.${ext}",
+      "icon": "public/logotypeadelix.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": false
+    }
+  },
+  "dependencies": {
+    "@maddsua/es-state": "^1.4.4",
+    "@supabase/supabase-js": "^2.45.4",
+    "docx": "^8.5.0",
+    "electron-log": "^5.2.0",
+    "electron-progressbar": "^2.2.1",
+    "electron-updater": "^6.3.9",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "jquery": "^3.7.1",
+    "jspdf": "^2.5.1",
+    "jszip": "^3.10.1",
+    "node-notifier": "^10.0.1",
+    "scss": "^0.2.4",
+    "sweetalert2": "^11.14.0",
+    "vue": "^3.2.25",
+    "xlsx": "^0.18.5",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "canvas": "^2.11.2",
+    "dsp.js": "^1.0.1",
+    "fft-js": "^0.0.12",
+    "pdf-lib": "^1.17.1",
+    "plotly.js-dist": "^2.35.2"
+  },
+  "devDependencies": {
+    "@types/electron-progressbar": "^1.2.7",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "concurrently": "^7.2.2",
+    "electron": "^25.3.2",
+    "electron-builder": "^24.6.3",
+    "pinia": "^2.0.18",
+    "sass": "^1.77.8",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-router": "^4.1.3",
+    "vue-tsc": "^0.34.7"
+  }
+}

@@ -1,0 +1,51 @@
+{
+	"tab1Btn": "Analizador",
+	"tab2Btn": "Vibrometro",
+	
+	"openReportWindowBtn": "Generar Informe",
+	"serialNumberLabel": "Número de serie",
+	"commentLabel": "Comentario",
+	"employeeLabel": "Realizado por",
+	"calculateAvgLabel":"Calcular el promedio de las mediciones seleccionadas",
+	"submitReportBtn": "Generar",
+	"cancelReportBtn": "Cancelar",
+	"clearReportBtn": "Limpiar",
+	
+	"fileName": "Nombre de archivo",
+	"deviceList":"Seleccionar disco",
+	"readDataBtn":"Leer datos",
+	"accelPeakTitleLabel":"Aceleración de vibración (A), m/s² ",
+	"velocityRMSTitleLabel":"Velocidad de vibración (V), mm/s ",
+	"displacementSinePeakTitleLabel":"Desplazamiento de vibración (S), µm ",
+	"peakFactorTitleLabel":"Factor de pico ",
+	
+	"topGraphTitle":"Espectro",
+	"topGraphYName":"Amplitud",
+	"topGraphXName":"Frecuencia, Hz",
+	
+	"bottomGraphTitle":"Señal",
+	"bottomGraphYName":"Aceleración, m/s²",
+	"bottomGraphXName":"Tiempo",
+	
+	"recordsTableDateCol":"Fecha",
+	"recordsTableTimeCol":"Hora",
+	"recordsTableVelCol":"Velocidad de vibración (V), mm/s ",
+	"recordsTableAccelCol":"Aceleración de vibración (A), m/s² ",
+	"recordsTableDisplCol":"Desplazamiento de vibración (S), µm ",
+	"recordsTablePeakCol":"Factor de pico ",
+	
+	"reportTitle": "Vibrómetro portátil",
+    "reportProtocol": "Protocolo de medición",
+    "reportSerialNumber": "Número de serie del dispositivo",
+    "reportDate": "Fecha y hora",
+    "reportResult": "Resultados de la medición",
+    "reportDateTime": "Fecha y Hora",
+	"reportVel":"V, mm/s",
+	"reportAccel":"A, m/s²",
+	"reportDispl":"S, µm",
+	"reportPeak":"Factor de pico",
+	"reportAvg":"Promedio",
+    	
+	"alertTab1": "No se seleccionó ninguna medición",	
+	"alertTab2": "No se seleccionó ninguna medición"
+}
